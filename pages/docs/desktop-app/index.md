@@ -26,10 +26,7 @@ By now the OS X app is signed by a non-Apple issued Code Signing certificate, if
 
 ![](https://cloud.githubusercontent.com/assets/447801/15505948/30332836-21f8-11e6-8ac4-512d559af6dc.png)
 
-If you see the warning, you can go to the Security & Privacy pane of System Preferences, where you will see a message under the Gatekeeper settings about the recently blocked program. Click unlock in Security & Privacy pane and select "Allow apps downloaded from: Anywhere", then you will be able to continue program execution.
-After that, you can restore the setting to default. Gatekeeper won't show you the warning again.
-
-![image](https://cloud.githubusercontent.com/assets/447801/15507483/60e07a64-21fe-11e6-8433-018ba975c661.png)
+If you see the warning, right click then select open. You will get warning then select open this will place exception into gatekeper to allow application to start. See https://support.apple.com/en-us/HT202491 for more information on GateKeepr on OS X
 
 ### Linux (ia32)
 Download "cnc-{version}-linux-ia32.deb" or "cnc-{version}-linux-ia32.tar.gz" to install the app in Debian or Ubuntu Linux (i386).
